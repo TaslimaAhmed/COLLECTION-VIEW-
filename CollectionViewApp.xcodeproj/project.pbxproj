@@ -12,6 +12,8 @@
 		961781FB1FD6A5E90005F792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961781F91FD6A5E90005F792 /* Main.storyboard */; };
 		961781FD1FD6A5E90005F792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961781FC1FD6A5E90005F792 /* Assets.xcassets */; };
 		961782001FD6A5E90005F792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961781FE1FD6A5E90005F792 /* LaunchScreen.storyboard */; };
+		961782081FD6A6A90005F792 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961782071FD6A6A90005F792 /* CustomCollectionViewCell.swift */; };
+		9617820A1FD6B8DB0005F792 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961782091FD6B8DB0005F792 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		961781FC1FD6A5E90005F792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		961781FF1FD6A5E90005F792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		961782011FD6A5E90005F792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961782071FD6A6A90005F792 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		961782091FD6B8DB0005F792 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				961781F51FD6A5E90005F792 /* AppDelegate.swift */,
 				961781F71FD6A5E90005F792 /* ViewController.swift */,
+				961782091FD6B8DB0005F792 /* SecondViewController.swift */,
+				961782071FD6A6A90005F792 /* CustomCollectionViewCell.swift */,
 				961781F91FD6A5E90005F792 /* Main.storyboard */,
 				961781FC1FD6A5E90005F792 /* Assets.xcassets */,
 				961781FE1FD6A5E90005F792 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9617820A1FD6B8DB0005F792 /* SecondViewController.swift in Sources */,
 				961781F81FD6A5E90005F792 /* ViewController.swift in Sources */,
+				961782081FD6A6A90005F792 /* CustomCollectionViewCell.swift in Sources */,
 				961781F61FD6A5E90005F792 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,9 +282,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 429CSS9779;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CollectionViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobioapp.CollectionViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,9 +299,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 429CSS9779;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CollectionViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobioapp.CollectionViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
